@@ -30,6 +30,6 @@ if __name__ == "__main__":
     tdee = calculate_tdee(bmr, activity_level)
     caloric_intake = calculate_caloric_intake(tdee)
 
-    print(f"BMR: {bmr:.2f} kcal/day")
-    print(f"TDEE: {tdee:.2f} kcal/day")
+    print(f"Basal Metabolic Rate: {bmr:.2f} kcal/day")
+    print(f"Total Daily Energy Expenditure: {tdee:.2f} kcal/day")
     print(f"Caloric Intake for Weight Loss: {caloric_intake:.2f} kcal/day")
